@@ -3,12 +3,6 @@ use ethers_addressbook::Contract;
 use ethers::types::U256;
 use std::{collections::HashMap, ops::{Mul, MulAssign}, hash::Hash};
 
-/// The CFMM trait should be implemented for
-pub trait CFMM<const N: usize> {
-    /// trade_function returns the output values for the given trade function.
-    fn trade_output(&self, input: HashMap<Contract, U256>) -> HashMap<Contract, U256>;
-}
-
 /// FeelessCPMM is a constant product market maker with no fees.
 pub struct FeelessCPMM {
     /// The CPMM reserves map each token to the amount in reserves.

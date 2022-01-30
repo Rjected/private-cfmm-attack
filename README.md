@@ -6,7 +6,9 @@ Implementing the adversary on CFMMs as described in [A Note on Privacy in Consta
  - [x] Design oracles
  - [ ] Design and implement marginal price type
  - [ ] Design transaction order list
+ - [ ] Design CFMM trait
  - [x] Implement simple CPMM
  - [ ] Implement oracles
  - [ ] Implement CFMM reserve recovery
- - [ ] Create attack simulation
+ - [ ] Create data for simulation
+ - [ ] Create attack demo
